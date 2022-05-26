@@ -25,7 +25,7 @@ function ReactFlowRenderer() {
           eds
         )
       ),
-    []
+    [setEdges]
   );
   const getNodeId = () => Math.random();
   function onInit() {
